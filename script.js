@@ -1,7 +1,7 @@
 const API_KEY= "2b7976a15c8d4605af4763bf644faca8";
 const url= "https://newsapi.org/v2/everything?q=";
 
-window.addEventListener('load', ()=>fetchNews("world"));
+window.addEventListener('load', ()=>fetchNews("top-heading"));
 
 
 function reload(){
